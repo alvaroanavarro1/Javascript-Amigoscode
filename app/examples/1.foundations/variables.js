@@ -7,6 +7,7 @@ import { log, logTitle } from "logger";
 logTitle("Variables");
 /* coding examples */
 
+// Simple Variables definitions
 var name = "Maria Jones";
 var age = 21.5;
 var hasDriverLicence = true;

@@ -1,28 +1,17 @@
 /* styling */
-require("styles/main.scss");
+require('styles/main.scss');
 /* js */
-import $ from "jquery";
-import { log, logTitle } from "logger";
+import $ from 'jquery';
+import { log, logTitle } from 'logger';
 /* your imports */
-logTitle("Objects");
+logTitle('Built in Functions')
 /* coding examples */
 
-var name = "Maria Jones";
-var age = 21.5;
-var hasDriverLicence = true;
+var person = {name: "Anna", age: 20};
+log(Object.keys(person));
+log(Object.values(person));
 
-log(name);
-
-var person = {
-    name: "Maria Jones",
-    age: 21,
-    hasDriverLicence: true,
-    dateOfBirth: "01/01/2000",
-    address: {
-      firstLine: "123",
-      postCode: "SE1",
-      country: "England"
-    }
-  };
-  
-log(JSON.stringify(person));
+log("James Bond".toLowerCase());
+log("James Bond".toUpperCase());
+log("James Bond".endsWith("Bond"));
+log("James Bond".startsWith("James"));

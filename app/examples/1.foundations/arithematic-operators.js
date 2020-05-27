@@ -11,6 +11,8 @@ logTitle("Arithemetic Operators");
   + - / % *
 */
 
+// Basic arithmetic Functions
+
 var addition = 2 + 2;
 var subtraction = 3 - 90;
 var division = 10 / 5;
